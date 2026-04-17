@@ -1,0 +1,851 @@
+[
+    {
+        "source": "otodom",
+        "id": "66342690",
+        "title": "3-pokojowe mieszkanie 58m2 + loggia",
+        "total_price": 794641,
+        "price_per_m2": 13605,
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "floor": "N/A",
+        "developer": "RONSON DEVELOPMENT",
+        "district": "Warszawa",
+        "nearest_metro": "M1 Centrum",
+        "walking_distance_m": 185,
+        "walking_minutes": 2,
+        "nbp_district_avg": 18000,
+        "market_diff": "-24.42%",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "vision_ai_layout": "\u00d3ptima (Poco pasillo, buena iluminaci\u00f3n)",
+            "mortgage_sim": {
+                "interest_rate_pct": 5.85,
+                "down_payment": 158928.2,
+                "loan_amount": 635712.8,
+                "monthly_payment_pln": 3750.33
+            },
+            "rent_sim": {
+                "estimated_monthly_rent_pln": 4380.6,
+                "gross_yield_pct": 6.62,
+                "monthly_cashflow_pln": 630.27,
+                "break_even_years_from_rent": 15.1
+            },
+            "projection_2031": {
+                "estimated_value_pln": 1013327.38,
+                "expected_capital_gain_pln": 218686.38,
+                "expected_capital_gain_pct": 27.52
+            }
+        },
+        "opportunity_score": 100
+    },
+    {
+        "source": "otodom",
+        "id": "66340725",
+        "title": "2-pokojowe mieszkanie 59m2 + balkon",
+        "total_price": 912000,
+        "price_per_m2": 15315,
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "floor": "N/A",
+        "developer": "Nabywca SKANSKA RESIDENTIAL DEVELOPMENT POLAND SP\u00d3\u0141KA Z OGRANICZON\u0104 ODPOWIEDZIALNO\u015aCI\u0104",
+        "district": "Warszawa",
+        "nearest_metro": "M1 Centrum",
+        "walking_distance_m": 185,
+        "walking_minutes": 2,
+        "nbp_district_avg": 18000,
+        "market_diff": "-14.92%",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "vision_ai_layout": "Aceptable",
+            "mortgage_sim": {
+                "interest_rate_pct": 5.85,
+                "down_payment": 182400.0,
+                "loan_amount": 729600.0,
+                "monthly_payment_pln": 4304.21
+            },
+            "rent_sim": {
+                "estimated_monthly_rent_pln": 4466.21,
+                "gross_yield_pct": 5.88,
+                "monthly_cashflow_pln": 162.0,
+                "break_even_years_from_rent": 17.0
+            },
+            "projection_2031": {
+                "estimated_value_pln": 1162983.75,
+                "expected_capital_gain_pln": 250983.75,
+                "expected_capital_gain_pct": 27.52
+            }
+        },
+        "opportunity_score": 90
+    },
+    {
+        "source": "otodom",
+        "id": "67903699",
+        "title": "2-pokojowe mieszkanie 41m2 + ogr\u00f3dek Bez Prowizji",
+        "total_price": 648675,
+        "price_per_m2": 15500,
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "floor": "N/A",
+        "developer": "DANTEX HOLDING SP\u00d3\u0141KA Z OGRANICZON\u0104 ODPOWIEDZIALNO\u015aCI\u0104",
+        "district": "Warszawa",
+        "nearest_metro": "M1 Centrum",
+        "walking_distance_m": 185,
+        "walking_minutes": 2,
+        "nbp_district_avg": 18000,
+        "market_diff": "-13.89%",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "vision_ai_layout": "Aceptable",
+            "mortgage_sim": {
+                "interest_rate_pct": 5.85,
+                "down_payment": 129735.0,
+                "loan_amount": 518940.0,
+                "monthly_payment_pln": 3061.44
+            },
+            "rent_sim": {
+                "estimated_monthly_rent_pln": 3138.75,
+                "gross_yield_pct": 5.81,
+                "monthly_cashflow_pln": 77.31,
+                "break_even_years_from_rent": 17.2
+            },
+            "projection_2031": {
+                "estimated_value_pln": 827191.32,
+                "expected_capital_gain_pln": 178516.32,
+                "expected_capital_gain_pct": 27.52
+            }
+        },
+        "opportunity_score": 90
+    },
+    {
+        "source": "otodom",
+        "id": "66336124",
+        "title": "2-pokojowe mieszkanie 50m2 + ogr\u00f3dek",
+        "total_price": 827145,
+        "price_per_m2": 16500,
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "floor": "N/A",
+        "developer": "APM Development",
+        "district": "\u015ar\u00f3dmie\u015bcie",
+        "nearest_metro": "M1 Centrum",
+        "walking_distance_m": 185,
+        "walking_minutes": 2,
+        "nbp_district_avg": 24000,
+        "market_diff": "-31.25%",
+        "future_infra_2030": [
+            "M4 Metro Line Planned (2050)"
+        ],
+        "investment_analysis": {
+            "vision_ai_layout": "Sub\u00f3ptima (Mucho pasillo, espacios ciegos)",
+            "mortgage_sim": {
+                "interest_rate_pct": 5.85,
+                "down_payment": 165429.0,
+                "loan_amount": 661716.0,
+                "monthly_payment_pln": 3903.73
+            },
+            "rent_sim": {
+                "estimated_monthly_rent_pln": 4511.7,
+                "gross_yield_pct": 6.55,
+                "monthly_cashflow_pln": 607.97,
+                "break_even_years_from_rent": 15.3
+            },
+            "projection_2031": {
+                "estimated_value_pln": 1054776.53,
+                "expected_capital_gain_pln": 227631.53,
+                "expected_capital_gain_pct": 27.52
+            }
+        },
+        "opportunity_score": 89
+    },
+    {
+        "source": "otodom",
+        "id": "67810431",
+        "title": "3-pokojowe mieszkanie 60m2 + balkon",
+        "total_price": 956848,
+        "price_per_m2": 15800,
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "floor": "N/A",
+        "developer": "DANTEX HOLDING SP\u00d3\u0141KA Z OGRANICZON\u0104 ODPOWIEDZIALNO\u015aCI\u0104",
+        "district": "\u015ar\u00f3dmie\u015bcie",
+        "nearest_metro": "M1 Centrum",
+        "walking_distance_m": 185,
+        "walking_minutes": 2,
+        "nbp_district_avg": 24000,
+        "market_diff": "-34.17%",
+        "future_infra_2030": [
+            "M4 Metro Line Planned (2050)"
+        ],
+        "investment_analysis": {
+            "vision_ai_layout": "Sub\u00f3ptima (Mucho pasillo, espacios ciegos)",
+            "mortgage_sim": {
+                "interest_rate_pct": 5.85,
+                "down_payment": 191369.6,
+                "loan_amount": 765478.4,
+                "monthly_payment_pln": 4515.87
+            },
+            "rent_sim": {
+                "estimated_monthly_rent_pln": 5450.4,
+                "gross_yield_pct": 6.84,
+                "monthly_cashflow_pln": 934.53,
+                "break_even_years_from_rent": 14.6
+            },
+            "projection_2031": {
+                "estimated_value_pln": 1220173.99,
+                "expected_capital_gain_pln": 263325.99,
+                "expected_capital_gain_pct": 27.52
+            }
+        },
+        "opportunity_score": 89
+    },
+    {
+        "source": "otodom",
+        "id": "66339409",
+        "title": "3-pokojowe mieszkanie 55m2 + balkon",
+        "total_price": 971838,
+        "price_per_m2": 17385,
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "floor": "N/A",
+        "developer": "YIT Development",
+        "district": "Warszawa",
+        "nearest_metro": "M1 Centrum",
+        "walking_distance_m": 185,
+        "walking_minutes": 2,
+        "nbp_district_avg": 18000,
+        "market_diff": "-3.42%",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "vision_ai_layout": "Aceptable",
+            "mortgage_sim": {
+                "interest_rate_pct": 5.85,
+                "down_payment": 194367.6,
+                "loan_amount": 777470.4,
+                "monthly_payment_pln": 4586.62
+            },
+            "rent_sim": {
+                "estimated_monthly_rent_pln": 4192.57,
+                "gross_yield_pct": 5.18,
+                "monthly_cashflow_pln": -394.04,
+                "break_even_years_from_rent": 19.3
+            },
+            "projection_2031": {
+                "estimated_value_pln": 1239289.26,
+                "expected_capital_gain_pln": 267451.26,
+                "expected_capital_gain_pct": 27.52
+            }
+        },
+        "opportunity_score": 82
+    },
+    {
+        "source": "otodom",
+        "id": "66346209",
+        "title": "3-pokojowe mieszkanie 56m2 + balkon Bez Prowizji",
+        "total_price": 984000,
+        "price_per_m2": 17376,
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "floor": "N/A",
+        "developer": "Nabywca SKANSKA RESIDENTIAL DEVELOPMENT POLAND SP\u00d3\u0141KA Z OGRANICZON\u0104 ODPOWIEDZIALNO\u015aCI\u0104",
+        "district": "Warszawa",
+        "nearest_metro": "M1 Centrum",
+        "walking_distance_m": 185,
+        "walking_minutes": 2,
+        "nbp_district_avg": 18000,
+        "market_diff": "-3.47%",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "vision_ai_layout": "Aceptable",
+            "mortgage_sim": {
+                "interest_rate_pct": 5.85,
+                "down_payment": 196800.0,
+                "loan_amount": 787200.0,
+                "monthly_payment_pln": 4644.02
+            },
+            "rent_sim": {
+                "estimated_monthly_rent_pln": 4247.24,
+                "gross_yield_pct": 5.18,
+                "monthly_cashflow_pln": -396.78,
+                "break_even_years_from_rent": 19.3
+            },
+            "projection_2031": {
+                "estimated_value_pln": 1254798.26,
+                "expected_capital_gain_pln": 270798.26,
+                "expected_capital_gain_pct": 27.52
+            }
+        },
+        "opportunity_score": 82
+    },
+    {
+        "source": "otodom",
+        "id": "67179647",
+        "title": "3-pokojowe mieszkanie 56m2 + ogr\u00f3dek Bezpo\u015brednio",
+        "total_price": 1109160,
+        "price_per_m2": 19500,
+        "latitude": 52.2388407,
+        "longitude": 20.9943106,
+        "floor": "N/A",
+        "developer": "Matexi Polska",
+        "district": "Wola",
+        "nearest_metro": "M1 Ratusz Arsena\u0142",
+        "walking_distance_m": 1021,
+        "walking_minutes": 12,
+        "nbp_district_avg": 20500,
+        "market_diff": "-4.88%",
+        "future_infra_2030": [
+            "M4 Metro Line Planned (2050)"
+        ],
+        "investment_analysis": {
+            "vision_ai_layout": "\u00d3ptima (Poco pasillo, buena iluminaci\u00f3n)",
+            "mortgage_sim": {
+                "interest_rate_pct": 5.85,
+                "down_payment": 221832.0,
+                "loan_amount": 887328.0,
+                "monthly_payment_pln": 5234.71
+            },
+            "rent_sim": {
+                "estimated_monthly_rent_pln": 4834.8,
+                "gross_yield_pct": 5.23,
+                "monthly_cashflow_pln": -399.91,
+                "break_even_years_from_rent": 19.1
+            },
+            "projection_2031": {
+                "estimated_value_pln": 1414402.48,
+                "expected_capital_gain_pln": 305242.48,
+                "expected_capital_gain_pct": 27.52
+            }
+        },
+        "opportunity_score": 79
+    },
+    {
+        "source": "otodom",
+        "id": "66354830",
+        "title": "2-pokojowe mieszkanie 48m2 + ogr\u00f3dek Bezpo\u015brednio",
+        "total_price": 913520,
+        "price_per_m2": 19000,
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "floor": "N/A",
+        "developer": "DANTEX HOLDING SP\u00d3\u0141KA Z OGRANICZON\u0104 ODPOWIEDZIALNO\u015aCI\u0104",
+        "district": "Warszawa",
+        "nearest_metro": "M1 Centrum",
+        "walking_distance_m": 185,
+        "walking_minutes": 2,
+        "nbp_district_avg": 18000,
+        "market_diff": "+5.56%",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "vision_ai_layout": "Aceptable",
+            "mortgage_sim": {
+                "interest_rate_pct": 5.85,
+                "down_payment": 182704.0,
+                "loan_amount": 730816.0,
+                "monthly_payment_pln": 4311.38
+            },
+            "rent_sim": {
+                "estimated_monthly_rent_pln": 3606.0,
+                "gross_yield_pct": 4.74,
+                "monthly_cashflow_pln": -705.38,
+                "break_even_years_from_rent": 21.1
+            },
+            "projection_2031": {
+                "estimated_value_pln": 1164922.06,
+                "expected_capital_gain_pln": 251402.06,
+                "expected_capital_gain_pct": 27.52
+            }
+        },
+        "opportunity_score": 75
+    },
+    {
+        "source": "otodom",
+        "id": "67823069",
+        "title": "Port Praski",
+        "total_price": null,
+        "price_per_m2": null,
+        "latitude": 52.246508,
+        "longitude": 21.0394781,
+        "floor": "N/A",
+        "developer": "Port Praski",
+        "district": "Praga-P\u00f3\u0142noc",
+        "nearest_metro": "M2 Stadion Narodowy",
+        "walking_distance_m": 281,
+        "walking_minutes": 3,
+        "nbp_district_avg": 18000,
+        "market_diff": "N/A",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "error": "Missing price data"
+        },
+        "opportunity_score": 70
+    },
+    {
+        "source": "otodom",
+        "id": "66347792",
+        "title": "3-pokojowe mieszkanie 59m2 + loggia Bezpo\u015brednio",
+        "total_price": null,
+        "price_per_m2": null,
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "floor": "N/A",
+        "developer": "DEVELIA",
+        "district": "Warszawa",
+        "nearest_metro": "M1 Centrum",
+        "walking_distance_m": 185,
+        "walking_minutes": 2,
+        "nbp_district_avg": 18000,
+        "market_diff": "N/A",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "error": "Missing price data"
+        },
+        "opportunity_score": 70
+    },
+    {
+        "source": "otodom",
+        "id": "66365783",
+        "title": "4-pokojowe mieszkanie 92m2 + 2 balkony",
+        "total_price": null,
+        "price_per_m2": null,
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "floor": "N/A",
+        "developer": "DEVELIA",
+        "district": "Warszawa",
+        "nearest_metro": "M1 Centrum",
+        "walking_distance_m": 185,
+        "walking_minutes": 2,
+        "nbp_district_avg": 18000,
+        "market_diff": "N/A",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "error": "Missing price data"
+        },
+        "opportunity_score": 70
+    },
+    {
+        "source": "otodom",
+        "id": "67667317",
+        "title": "Esy Floresy",
+        "total_price": null,
+        "price_per_m2": null,
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "floor": "N/A",
+        "developer": "Flora Development Warszawa",
+        "district": "Warszawa",
+        "nearest_metro": "M1 Centrum",
+        "walking_distance_m": 185,
+        "walking_minutes": 2,
+        "nbp_district_avg": 18000,
+        "market_diff": "N/A",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "error": "Missing price data"
+        },
+        "opportunity_score": 70
+    },
+    {
+        "source": "otodom",
+        "id": "67363704",
+        "title": "2-pokojowe mieszkanie 46m2 + balkon Bezpo\u015brednio",
+        "total_price": null,
+        "price_per_m2": null,
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "floor": "N/A",
+        "developer": "DEVELIA",
+        "district": "Warszawa",
+        "nearest_metro": "M1 Centrum",
+        "walking_distance_m": 185,
+        "walking_minutes": 2,
+        "nbp_district_avg": 18000,
+        "market_diff": "N/A",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "error": "Missing price data"
+        },
+        "opportunity_score": 70
+    },
+    {
+        "source": "otodom",
+        "id": "67376138",
+        "title": "Warszawska 58A",
+        "total_price": null,
+        "price_per_m2": null,
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "floor": "N/A",
+        "developer": "ATAL",
+        "district": "Warszawa",
+        "nearest_metro": "M1 Centrum",
+        "walking_distance_m": 185,
+        "walking_minutes": 2,
+        "nbp_district_avg": 18000,
+        "market_diff": "N/A",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "error": "Missing price data"
+        },
+        "opportunity_score": 70
+    },
+    {
+        "source": "otodom",
+        "id": "67751026",
+        "title": "3-pokojowe mieszkanie 67m2 + balkon Bezpo\u015brednio",
+        "total_price": 1971380,
+        "price_per_m2": 29102,
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "floor": "N/A",
+        "developer": "BPI Piano Forte sp. z. o.o.",
+        "district": "\u015ar\u00f3dmie\u015bcie",
+        "nearest_metro": "M1 Centrum",
+        "walking_distance_m": 185,
+        "walking_minutes": 2,
+        "nbp_district_avg": 24000,
+        "market_diff": "+21.26%",
+        "future_infra_2030": [
+            "M4 Metro Line Planned (2050)"
+        ],
+        "investment_analysis": {
+            "vision_ai_layout": "Aceptable",
+            "mortgage_sim": {
+                "interest_rate_pct": 5.85,
+                "down_payment": 394276.0,
+                "loan_amount": 1577104.0,
+                "monthly_payment_pln": 9303.98
+            },
+            "rent_sim": {
+                "estimated_monthly_rent_pln": 6096.63,
+                "gross_yield_pct": 3.71,
+                "monthly_cashflow_pln": -3207.35,
+                "break_even_years_from_rent": 26.9
+            },
+            "projection_2031": {
+                "estimated_value_pln": 2513906.7,
+                "expected_capital_gain_pln": 542526.7,
+                "expected_capital_gain_pct": 27.52
+            }
+        },
+        "opportunity_score": 69
+    },
+    {
+        "source": "otodom",
+        "id": "66336152",
+        "title": "4-pokojowe mieszkanie 119m2 + balkon",
+        "total_price": 3789472,
+        "price_per_m2": 31600,
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "floor": "N/A",
+        "developer": "APM Development",
+        "district": "\u015ar\u00f3dmie\u015bcie",
+        "nearest_metro": "M1 Centrum",
+        "walking_distance_m": 185,
+        "walking_minutes": 2,
+        "nbp_district_avg": 24000,
+        "market_diff": "+31.67%",
+        "future_infra_2030": [
+            "M4 Metro Line Planned (2050)"
+        ],
+        "investment_analysis": {
+            "vision_ai_layout": "Aceptable",
+            "mortgage_sim": {
+                "interest_rate_pct": 5.85,
+                "down_payment": 757894.4,
+                "loan_amount": 3031577.6,
+                "monthly_payment_pln": 17884.52
+            },
+            "rent_sim": {
+                "estimated_monthly_rent_pln": 10792.8,
+                "gross_yield_pct": 3.42,
+                "monthly_cashflow_pln": -7091.72,
+                "break_even_years_from_rent": 29.3
+            },
+            "projection_2031": {
+                "estimated_value_pln": 4832340.31,
+                "expected_capital_gain_pln": 1042868.31,
+                "expected_capital_gain_pct": 27.52
+            }
+        },
+        "opportunity_score": 69
+    },
+    {
+        "source": "otodom",
+        "id": "66348366",
+        "title": "2-pokojowe mieszkanie 41m2 + ogr\u00f3dek Bez Prowizji",
+        "total_price": 990000,
+        "price_per_m2": 23844,
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "floor": "N/A",
+        "developer": "Nabywca SKANSKA RESIDENTIAL DEVELOPMENT POLAND SP\u00d3\u0141KA Z OGRANICZON\u0104 ODPOWIEDZIALNO\u015aCI\u0104",
+        "district": "Warszawa",
+        "nearest_metro": "M1 Centrum",
+        "walking_distance_m": 185,
+        "walking_minutes": 2,
+        "nbp_district_avg": 18000,
+        "market_diff": "+32.47%",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "vision_ai_layout": "Aceptable",
+            "mortgage_sim": {
+                "interest_rate_pct": 5.85,
+                "down_payment": 198000.0,
+                "loan_amount": 792000.0,
+                "monthly_payment_pln": 4672.33
+            },
+            "rent_sim": {
+                "estimated_monthly_rent_pln": 3113.99,
+                "gross_yield_pct": 3.77,
+                "monthly_cashflow_pln": -1558.34,
+                "break_even_years_from_rent": 26.5
+            },
+            "projection_2031": {
+                "estimated_value_pln": 1262449.47,
+                "expected_capital_gain_pln": 272449.47,
+                "expected_capital_gain_pct": 27.52
+            }
+        },
+        "opportunity_score": 69
+    },
+    {
+        "source": "otodom",
+        "id": "67916682",
+        "title": "3-pokojowe mieszkanie 57m2 Bezpo\u015brednio",
+        "total_price": 1264048,
+        "price_per_m2": 22010,
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "floor": "N/A",
+        "developer": "Archicom",
+        "district": "Warszawa",
+        "nearest_metro": "M1 Centrum",
+        "walking_distance_m": 185,
+        "walking_minutes": 2,
+        "nbp_district_avg": 18000,
+        "market_diff": "+22.28%",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "vision_ai_layout": "Aceptable",
+            "mortgage_sim": {
+                "interest_rate_pct": 5.85,
+                "down_payment": 252809.6,
+                "loan_amount": 1011238.4,
+                "monthly_payment_pln": 5965.71
+            },
+            "rent_sim": {
+                "estimated_monthly_rent_pln": 4307.3,
+                "gross_yield_pct": 4.09,
+                "monthly_cashflow_pln": -1658.41,
+                "break_even_years_from_rent": 24.5
+            },
+            "projection_2031": {
+                "estimated_value_pln": 1611915.88,
+                "expected_capital_gain_pln": 347867.88,
+                "expected_capital_gain_pct": 27.52
+            }
+        },
+        "opportunity_score": 69
+    },
+    {
+        "source": "otodom",
+        "id": "65834299",
+        "title": "Vonder UpTown | apartament 1-pok. | 76",
+        "total_price": 717910,
+        "price_per_m2": 26521,
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "floor": "N/A",
+        "developer": "Vonder Poland Sp\u00f3\u0142ka z o.o.",
+        "district": "Warszawa",
+        "nearest_metro": "M1 Centrum",
+        "walking_distance_m": 185,
+        "walking_minutes": 2,
+        "nbp_district_avg": 18000,
+        "market_diff": "+47.34%",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "vision_ai_layout": "Sub\u00f3ptima (Mucho pasillo, espacios ciegos)",
+            "mortgage_sim": {
+                "interest_rate_pct": 5.85,
+                "down_payment": 143582.0,
+                "loan_amount": 574328.0,
+                "monthly_payment_pln": 3388.2
+            },
+            "rent_sim": {
+                "estimated_monthly_rent_pln": 2030.21,
+                "gross_yield_pct": 3.39,
+                "monthly_cashflow_pln": -1357.98,
+                "break_even_years_from_rent": 29.5
+            },
+            "projection_2031": {
+                "estimated_value_pln": 915479.9,
+                "expected_capital_gain_pln": 197569.9,
+                "expected_capital_gain_pct": 27.52
+            }
+        },
+        "opportunity_score": 64
+    },
+    {
+        "source": "otodom",
+        "id": "96775102600067",
+        "title": "3-pokojowe mieszkanie 67m2 + balkon Bezpo\u015brednio",
+        "total_price": 1971380,
+        "price_per_m2": 29102,
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "floor": "N/A",
+        "developer": "BPI Piano Forte sp. z. o.o.",
+        "district": "Warszawa",
+        "nearest_metro": "M1 Centrum",
+        "walking_distance_m": 185,
+        "walking_minutes": 2,
+        "nbp_district_avg": 18000,
+        "market_diff": "+61.68%",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "vision_ai_layout": "Sub\u00f3ptima (Mucho pasillo, espacios ciegos)",
+            "mortgage_sim": {
+                "interest_rate_pct": 5.85,
+                "down_payment": 394276.0,
+                "loan_amount": 1577104.0,
+                "monthly_payment_pln": 9303.98
+            },
+            "rent_sim": {
+                "estimated_monthly_rent_pln": 5080.53,
+                "gross_yield_pct": 3.09,
+                "monthly_cashflow_pln": -4223.45,
+                "break_even_years_from_rent": 32.3
+            },
+            "projection_2031": {
+                "estimated_value_pln": 2513906.7,
+                "expected_capital_gain_pln": 542526.7,
+                "expected_capital_gain_pct": 27.52
+            }
+        },
+        "opportunity_score": 64
+    },
+    {
+        "source": "otodom",
+        "id": "66343366",
+        "title": "3-pokojowe mieszkanie 57m2 + ogr\u00f3dek",
+        "total_price": 979030,
+        "price_per_m2": 17000,
+        "latitude": 52.3012115,
+        "longitude": 21.019469,
+        "floor": "N/A",
+        "developer": "Mennica Polska",
+        "district": "Bia\u0142o\u0142\u0119ka",
+        "nearest_metro": "M2 Br\u00f3dno",
+        "walking_distance_m": 1584,
+        "walking_minutes": 19,
+        "nbp_district_avg": 18000,
+        "market_diff": "-5.56%",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "vision_ai_layout": "Sub\u00f3ptima (Mucho pasillo, espacios ciegos)",
+            "mortgage_sim": {
+                "interest_rate_pct": 5.85,
+                "down_payment": 195806.0,
+                "loan_amount": 783224.0,
+                "monthly_payment_pln": 4620.56
+            },
+            "rent_sim": {
+                "estimated_monthly_rent_pln": 4031.3,
+                "gross_yield_pct": 4.94,
+                "monthly_cashflow_pln": -589.26,
+                "break_even_years_from_rent": 20.2
+            },
+            "projection_2031": {
+                "estimated_value_pln": 1248460.51,
+                "expected_capital_gain_pln": 269430.51,
+                "expected_capital_gain_pct": 27.52
+            }
+        },
+        "opportunity_score": 63
+    },
+    {
+        "source": "otodom",
+        "id": "67166845",
+        "title": "4-pokojowe mieszkanie 111m2 + 2 tarasy",
+        "total_price": 3604055,
+        "price_per_m2": 32399,
+        "latitude": 52.2947116,
+        "longitude": 20.9092373,
+        "floor": "N/A",
+        "developer": "GH Development",
+        "district": "Warszawa",
+        "nearest_metro": "M1 M\u0142ociny",
+        "walking_distance_m": 1789,
+        "walking_minutes": 22,
+        "nbp_district_avg": 18000,
+        "market_diff": "+79.99%",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "vision_ai_layout": "Aceptable",
+            "mortgage_sim": {
+                "interest_rate_pct": 5.85,
+                "down_payment": 720811.0,
+                "loan_amount": 2883244.0,
+                "monthly_payment_pln": 17009.44
+            },
+            "rent_sim": {
+                "estimated_monthly_rent_pln": 7786.78,
+                "gross_yield_pct": 2.59,
+                "monthly_cashflow_pln": -9222.66,
+                "break_even_years_from_rent": 38.6
+            },
+            "projection_2031": {
+                "estimated_value_pln": 4595896.28,
+                "expected_capital_gain_pln": 991841.28,
+                "expected_capital_gain_pct": 27.52
+            }
+        },
+        "opportunity_score": 52
+    },
+    {
+        "source": "otodom",
+        "id": "66988584",
+        "title": "Piastova Osada",
+        "total_price": null,
+        "price_per_m2": null,
+        "latitude": 52.3342245,
+        "longitude": 21.0537534,
+        "floor": "N/A",
+        "developer": "Victoria Dom",
+        "district": "Bia\u0142o\u0142\u0119ka",
+        "nearest_metro": "M2 Br\u00f3dno",
+        "walking_distance_m": 6069,
+        "walking_minutes": 75,
+        "nbp_district_avg": 18000,
+        "market_diff": "N/A",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "error": "Missing price data"
+        },
+        "opportunity_score": 50
+    },
+    {
+        "source": "otodom",
+        "id": "67274368",
+        "title": "Uno Bemowo",
+        "total_price": null,
+        "price_per_m2": null,
+        "latitude": 52.2526929,
+        "longitude": 20.9148476,
+        "floor": "N/A",
+        "developer": "NAPOLLO",
+        "district": "Bemowo",
+        "nearest_metro": "M2 Bemowo",
+        "walking_distance_m": 2225,
+        "walking_minutes": 27,
+        "nbp_district_avg": 17500,
+        "market_diff": "N/A",
+        "future_infra_2030": [],
+        "investment_analysis": {
+            "error": "Missing price data"
+        },
+        "opportunity_score": 50
+    }
+]
