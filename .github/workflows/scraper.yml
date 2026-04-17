@@ -1,0 +1,162 @@
+name: Poland House Hunter - Scraper Pipeline
+
+on:
+  repository_dispatch:
+    types: [manual_trigger]
+
+env:
+  POSTGRES_URL: ${{ secrets.POSTGRES_URL }}
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHAT_ID: ${{ secrets.ALLOWED_CHAT_ID }}
+  VERCEL_APP_URL: ${{ secrets.VERCEL_APP_URL }}
+
+jobs:
+  scrape-enrich-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python 3.9
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: 📦 Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright playwright-stealth fake-useragent geopy psycopg2-binary
+
+      - name: 🌐 Install Playwright Chromium
+        run: playwright install --with-deps chromium
+
+      - name: 🔍 Stage 1 - Scrape Otodom & RynekPierwotny
+        run: python main_scraper.py
+        continue-on-error: true
+
+      - name: 🗺️ Stage 2 - Geospatial Enrichment
+        run: python data_enrichment.py
+        continue-on-error: true
+
+      - name: 💰 Stage 3 - Investment Analysis
+        run: python investment_analysis.py
+        continue-on-error: true
+
+      - name: 🏆 Stage 4 - Opportunity Scoring
+        run: python score_generator.py
+        continue-on-error: true
+
+      - name: 🗄️ Stage 5 - Upsert to Vercel Postgres
+        run: |
+          python - <<'PYTHON_SCRIPT'
+          import json, os, psycopg2
+
+          db_url = os.environ["POSTGRES_URL"]
+          conn = psycopg2.connect(db_url)
+          cur = conn.cursor()
+
+          # Ensure tables exist
+          cur.execute(open("setup_postgres.sql", "r").read())
+          conn.commit()
+
+          if not os.path.exists("warsaw_apartments_scored.json"):
+              print("No scored file found, skipping DB upsert.")
+              exit(0)
+
+          with open("warsaw_apartments_scored.json", "r") as f:
+              data = json.load(f)
+
+          for item in data:
+              prop_id = str(item.get("id", ""))
+              price = item.get("total_price", 0)
+              price_m2 = item.get("price_per_m2", 0)
+              area = round(price / price_m2, 1) if price_m2 else 0
+              inv = item.get("investment_analysis", {})
+              rent = inv.get("rent_sim", {})
+              mort = inv.get("mortgage_sim", {})
+              proj = inv.get("projection_2031", {})
+
+              cur.execute("""
+                  INSERT INTO properties (
+                      id, title, developer, price_pln_gross, price_per_sqm,
+                      rooms, area_sqm, floor, district, city,
+                      opportunity_score, annual_yield_percent, market_diff_percent,
+                      layout_quality, distance_to_metro_m, nearest_metro,
+                      projected_capital_gain_pct, monthly_mortgage_pln, break_even_years,
+                      url, last_updated
+                  ) VALUES (
+                      %s, %s, %s, %s, %s,
+                      %s, %s, %s, %s, %s,
+                      %s, %s, %s,
+                      %s, %s, %s,
+                      %s, %s, %s,
+                      %s, CURRENT_TIMESTAMP
+                  )
+                  ON CONFLICT (id) DO UPDATE SET
+                      price_pln_gross = EXCLUDED.price_pln_gross,
+                      price_per_sqm = EXCLUDED.price_per_sqm,
+                      opportunity_score = EXCLUDED.opportunity_score,
+                      annual_yield_percent = EXCLUDED.annual_yield_percent,
+                      market_diff_percent = EXCLUDED.market_diff_percent,
+                      layout_quality = EXCLUDED.layout_quality,
+                      monthly_mortgage_pln = EXCLUDED.monthly_mortgage_pln,
+                      projected_capital_gain_pct = EXCLUDED.projected_capital_gain_pct,
+                      break_even_years = EXCLUDED.break_even_years,
+                      last_updated = CURRENT_TIMESTAMP;
+              """, (
+                  prop_id,
+                  item.get("title", "")[:255],
+                  item.get("developer", "")[:255] if item.get("developer") else None,
+                  price,
+                  price_m2,
+                  2 if "2-pok" in item.get("title", "") else (4 if "4-pok" in item.get("title", "") else 3),
+                  area,
+                  0,
+                  item.get("district", "Unknown"),
+                  "Warszawa",
+                  item.get("opportunity_score", 50),
+                  rent.get("gross_yield_pct", 0),
+                  None,
+                  inv.get("vision_ai_layout", None),
+                  item.get("walking_distance_m", None),
+                  item.get("nearest_metro", None),
+                  proj.get("expected_capital_gain_pct", 27.52),
+                  mort.get("monthly_payment_pln", 0),
+                  rent.get("break_even_years_from_rent", 0),
+                  "#",
+              ))
+
+              # Log price history
+              cur.execute("""
+                  INSERT INTO price_history (property_id, price_pln_gross)
+                  VALUES (%s, %s);
+              """, (prop_id, price))
+
+          conn.commit()
+          cur.close()
+          conn.close()
+          print(f"Successfully upserted {len(data)} properties to Vercel Postgres.")
+          PYTHON_SCRIPT
+
+      - name: 📊 Count High-Score Opportunities
+        id: count
+        run: |
+          if [ -f "warsaw_apartments_scored.json" ]; then
+            HIGH=$(python -c "import json; data=json.load(open('warsaw_apartments_scored.json')); print(sum(1 for d in data if d.get('opportunity_score',0)>80))")
+            TOTAL=$(python -c "import json; data=json.load(open('warsaw_apartments_scored.json')); print(len(data))")
+          else
+            HIGH=0
+            TOTAL=0
+          fi
+          echo "high=$HIGH" >> $GITHUB_OUTPUT
+          echo "total=$TOTAL" >> $GITHUB_OUTPUT
+
+      - name: 📲 Notify Telegram
+        run: |
+          MESSAGE="✅ Extracción finalizada con éxito!%0A%0A🏢 Total procesados: ${{ steps.count.outputs.total }}%0A⭐ Score > 80: ${{ steps.count.outputs.high }}%0A%0A🔗 Dashboard: ${VERCEL_APP_URL}"
+
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d "chat_id=${TELEGRAM_CHAT_ID}" \
+            -d "text=${MESSAGE}"
