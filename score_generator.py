@@ -89,10 +89,13 @@ def process():
     with open(out_file, "w") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
         
-    # Export to Frontend
-    os.makedirs(os.path.dirname(nextjs_dest), exist_ok=True)
-    shutil.copyfile(out_file, nextjs_dest)
-    logging.info(f"Processed {len(data)} items and exported to Frontend {nextjs_dest}")
+    # Export to Frontend (Optional if sibling exists)
+    try:
+        os.makedirs(os.path.dirname(nextjs_dest), exist_ok=True)
+        shutil.copyfile(out_file, nextjs_dest)
+        logging.info(f"Processed {len(data)} items and exported to Frontend {nextjs_dest}")
+    except Exception as e:
+        logging.warning(f"Could not export to frontend: {e}. This is normal in CI/CD if folders are detached.")
 
 if __name__ == "__main__":
     process()
